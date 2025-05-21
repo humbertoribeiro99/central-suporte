@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Abrir Ticket - Central de Suporte</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <nav class="sidebar">
+      <h1>Central de Suporte</h1>
+      <ul>
+        <li><a href="index.html" class="active">Abrir Ticket</a></li>
+        <li><a href="tickets.html">Tickets Recentes</a></li>
+        <li><a href="chatbot.html">Assistente Virtual</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="relatorio.html">Relatório</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <h2>Abrir Ticket</h2>
+      <form id="ticketForm">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <textarea id="problema" placeholder="Descreva o problema" required></textarea>
+        <button type="submit">Enviar Ticket</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
